@@ -4,6 +4,9 @@
 <dict>
 	<key>com.apple.security.cs.allow-jit</key>
 	<true/>
+	<!-- Permit debugging tools to attach to Dolphin -->
+	<key>com.apple.security.get-task-allow</key>
+	<true/>
 	<!-- Needed for GameCube microphone emulation -->
 	<key>com.apple.security.device.audio-input</key>
 	<true/>
